@@ -45,4 +45,4 @@ def sample_recommendation(model, data, user_ids):
             print("        %s" % x)
 
 # Giving the user_ids
-sample_recommendation(model, data, [10, 250, 51]) # Change the 3 numbers in thee list at the end for different user_ids
+sample_recommendation(model, data, [10, 250, 51]) # Change the 3 numbers in the list at the end for different user_ids
