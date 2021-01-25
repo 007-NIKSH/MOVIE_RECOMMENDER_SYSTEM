@@ -43,5 +43,6 @@ def sample_recommendation(model, data, user_ids):
 
         for x in top_items[:3]:
             print("        %s" % x)
-            
-sample_recommendation(model, data, [3, 25, 451])
+
+# Giving the user_ids
+sample_recommendation(model, data, [10, 250, 51]) # Change the 3 numbers in thee list at the end for different user_ids
